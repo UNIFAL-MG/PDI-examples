@@ -1,0 +1,4 @@
+morfo
+*.o
+*-result.*
+.vscode
