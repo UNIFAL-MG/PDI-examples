@@ -1,0 +1,4 @@
+*.o
+ponto
+.vscode
+*-result.*
