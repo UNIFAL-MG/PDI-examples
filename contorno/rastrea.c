@@ -14,6 +14,15 @@ int in[] =
      0, 1, 1, 1, 1, 0, 0,
      0, 0, 0, 0, 0, 0, 0};
 
+int in1[] =
+    {0, 0, 0, 0, 0, 0, 0,
+     0, 0, 0, 1, 0, 0, 0,
+     0, 0, 1, 0, 1, 0, 0,
+     0, 0, 1, 0, 0, 0, 0,
+     0, 1, 0, 1, 0, 0, 0,
+     0, 1, 1, 1, 1, 0, 0,
+     0, 0, 0, 0, 0, 0, 0};
+
 typedef struct
 {
     int i, j;
@@ -79,19 +88,19 @@ ptno contorno(image img, int h, int w)
     L = insere(L, b0);
     k = 0;
     do
-    {
+    { // ponto b0
         i = b0.i + N[k].i;
         j = b0.j + N[k].j;
         k++;
-    } while (img[i * w + j] != 1 && k < 8);
-    if (img[i * w + j] == 1)
-    {
+    } while (!img[i * w + j] && k < 8);
+    if (img[i * w + j])
+    { // ponto b1
         b1.i = i;
         b1.j = j;
         k = anterior[k];
         fim = false;
         do
-        {
+        { // próximo ponto do contorno
             b.i = i;
             b.j = j;
             do
@@ -103,16 +112,15 @@ ptno contorno(image img, int h, int w)
             k = anterior[k];
             L = insere(L, b);
             if (i == b0.i && j == b0.j)
-            {
-                int i1, j1, k1;
-                k1 = k;
+            { // Testa se fechou contorno
+                int y, x, m = k;
                 do
                 {
-                    k1 = (k1 + 1) % 8;
-                    i1 = b0.i + N[k1].i;
-                    j1 = b0.j + N[k1].j;
-                } while (img[i1 * w + j1] != 1);
-                if (i1 == b1.i && j1 == b1.j)
+                    m = (m + 1) % 8;
+                    y = b0.i + N[m].i;
+                    x = b0.j + N[m].j;
+                } while (!img[y * w + x]);
+                if (y == b1.i && x == b1.j)
                     fim = true;
             }
         } while (!fim);
@@ -122,6 +130,6 @@ ptno contorno(image img, int h, int w)
 
 int main(int argc, char *argv[])
 {
-    ptno L = contorno(in, 7, 7);
+    ptno L = contorno(in1, 7, 7);
     mostraContorno(L);
 }
