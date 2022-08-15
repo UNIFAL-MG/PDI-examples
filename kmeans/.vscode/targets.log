@@ -1,0 +1,358 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Sep 28 10:59:35 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'makefile', line 7)
+TARGET = kmeans
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/luizedu/Progs/img/2021/Segmentação/Kmeans
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"d75d2bbbca3e8a7d1f4edc999d2b2911.pt-br","_translationsConfigFile":"/home/luizedu/.config/Code/clp/d75d2bbbca3e8a7d1f4edc999d2b2911.pt-br/tcf.json","_cacheRoot":"/home/luizedu/.config/Code/clp/d75d2bbbca3e8a7d1f4edc999d2b2911.pt-br","_resolvedLanguagePackCoreLocation":"/home/luizedu/.config/Code/clp/d75d2bbbca3e8a7d1f4edc999d2b2911.pt-br/7f6ab5485bbc008386c4386d08766667e155244e","_corruptedFile":"/home/luizedu/.config/Code/clp/d75d2bbbca3e8a7d1f4edc999d2b2911.pt-br/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+JOURNAL_STREAM = 9:51178
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+JAVA_HOME = /usr/lib/jvm/java-11-openjdk-amd64/
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = luizedu
+# makefile (from 'makefile', line 5)
+SOURCES = $(wildcard *.c)
+# environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/home/luizedu/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+MANAGERPID = 2633
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/luizedu
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/lib/nodejs/node-v12.16.2-linux-x64/bin:/home/luizedu/.local/bin:/usr/local/android-studio/bin:/usr/local/lib/nodejs/node-v12.16.2-linux-x64/bin:/home/luizedu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/luizedu/bin:/usr/local/jdk1.8.0_111/bin:/home/luizedu/bin:/usr/local/jdk1.8.0_111/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/bydu:@/tmp/.ICE-unix/2906,unix/bydu:/tmp/.ICE-unix/2906
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'makefile', line 3)
+CCFLAGS = -g
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=d976fa44-10cc-4d3c-a3f9-25bac7894b12&iid=d976fa44-10cc-4d3c-a3f9-25bac7894b12&sid=d976fa44-10cc-4d3c-a3f9-25bac7894b12","uploadToServer":true}
+# environment
+INVOCATION_ID = 8f093066a6884465bcde6acb3ea1bd11
+# makefile (from 'makefile', line 4)
+LDFLAGS = 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 22199
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :1
+# environment
+GTK_IM_MODULE = cedilha
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/luizedu/Progs/img/2021/Segmentação/Kmeans
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 2884
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/luizedu
+# environment
+LD_LIBRARY_PATH = /usr/lib/jvm/java-1.11.0-openjdk-amd64/lib/server:
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/luizedu/.config/Code/CachedData/7f6ab5485bbc008386c4386d08766667e155244e
+# environment
+LOGNAME = luizedu
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = cedilha
+# environment
+SHLVL = 0
+# makefile (from 'makefile', line 1)
+CC = gcc
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-81cee75d-3c6b-4253-acbc-10382e39ef9d.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = luizedu
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = pt_BR:pt:en
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-a92057e8-1.60.2-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/luizedu/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# makefile (from 'makefile', line 6)
+OBJECTS = $(SOURCES:.c=.o)
+# environment
+LANG = C
+# environment
+VSCODE_PID = 22199
+# variable set hash-table stats:
+# Load=110/1024=11%, Rehash=0, Collisions=14/139=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2085, inode 5997254): 15 files, no impossibilities.
+
+# 15 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.o: %.c %.h
+#  recipe to execute (from 'makefile', line 14):
+	\
+    $(CC) $(CCFLAGS) -c $<
+
+%.o: %.c
+#  recipe to execute (from 'makefile', line 17):
+	\
+    $(CC) $(CCFLAGS) -c $<
+
+# 2 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+imagelib.o: imagelib.c imagelib.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'imagelib'
+#  Last modified 2021-09-27 20:47:22.323567398
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 14):
+	\
+    $(CC) $(CCFLAGS) -c $<
+
+all: kmeans
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ 
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-09-01 20:23:04.860369364
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+imagelib.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-24 09:30:58.249481
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+imagelib.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-24 09:30:58.249481
+#  File has been updated.
+#  Successfully updated.
+
+kmeans.o: kmeans.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'kmeans'
+#  Last modified 2021-09-27 20:47:22.395570563
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 17):
+	\
+    $(CC) $(CCFLAGS) -c $<
+
+kmeans: imagelib.o kmeans.o
+#  Implicit rule search has not been done.
+#  Last modified 2021-09-27 20:47:22.783587618
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 11):
+	\
+    $(CC) -g -o $@ $^ $(LDFLAGS) 
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 20):
+	\
+    rm -f *.o *-*.pgm $(TARGET);\
+
+
+# Not a target:
+kmeans.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-09-04 16:57:55.327753386
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/36=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 26 / storage = 233 B / avg = 8 B
+# current buf: size = 8162 B / used = 233 B / count = 26 / avg = 8 B
+
+# strcache performance: lookups = 48 / hit rate = 45%
+# hash-table stats:
+# Load=26/8192=0%, Rehash=0, Collisions=1/48=2%
+# Finished Make data base on Tue Sep 28 10:59:35 2021
+
+ 

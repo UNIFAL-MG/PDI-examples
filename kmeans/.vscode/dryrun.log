@@ -1,0 +1,10 @@
+make kmeans --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/luizedu/Progs/img/2021/Segmentação/Kmeans'
+\
+    gcc -g -c imagelib.c
+\
+    gcc -g -c kmeans.c
+\
+    gcc -g -o kmeans imagelib.o kmeans.o  
+make: Leaving directory '/home/luizedu/Progs/img/2021/Segmentação/Kmeans'
+ 
